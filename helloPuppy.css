@@ -12,7 +12,7 @@ body {
 
 .header {
     text-align: center;
-    padding: 0 0 20px 0;
+    padding: 0 0 5px 0;
 }
 
 .header select {
@@ -21,8 +21,14 @@ font-weight: 500;
 padding: 5px;
 border: 3px solid;
 border-color: orange;
-box-shadow: 2px 2px #ccc;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
+.header select:focus {
+    border-color: orange;
+    border-block-start-color: orange;
+}
+
 
 .slideshow {
     flex: 1 500px;
